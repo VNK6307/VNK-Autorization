@@ -1,0 +1,8 @@
+version: '5'
+
+services:
+  myrest_2:
+    build: ./
+    image: 'myrest1'
+    ports:
+      - '9999:9999'
